@@ -12,6 +12,12 @@
 </head>
 
 <body>
+  <div id="splash">
+    <img src="https://img.icons8.com/doodle/48/000000/cafe-building.png">
+    <div class="spinner-border text-warning" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
   <div class="mycontainer">
     <div class="myheader">
       <img src="https://img.icons8.com/doodle/48/000000/cafe-building.png" />
@@ -29,6 +35,16 @@
     <a href="./login.html" class="btn btn-primary btn-sm">Agree</a>
 
   </div>
+  <script type="text/javascript">
+    setTimeout(() => {
+      document.getElementById('splash').classList.add('fade');
+
+    }, 3000);
+    setTimeout(() => {
+      document.getElementById('splash').style.left='-100vw';
+
+    }, 3000);
+  </script>
 
 </body>
 

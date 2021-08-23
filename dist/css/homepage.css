@@ -18,7 +18,6 @@
 body{
   height:100vh;
   width: 100vw;
-  overflow-y: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -180,4 +179,49 @@ padding-right: 0.8rem;
 .app-bottom i{
   font-size: 2rem;
   color: var(--homecolor);
+}
+
+
+@media (max-width: 360px){
+  .update .update-head p{
+    font-size: 0.6rem;
+  }
+  .carousel .update .update-head h6{
+    font-size: 0.8rem;
+  }
+
+  .update .update-body p{
+    font-size: 0.6rem;
+  }
+  .carousel .update .update-body h6{
+    font-size: 0.8rem;
+  }
+  .update .update-footer p{
+    font-size: 0.6rem;
+  }
+
+
+}
+
+@media (max-height: 550px){
+  .update .update-head p{
+    font-size: 0.6rem;
+  }
+  .carousel .update .update-head h6{
+    font-size: 0.8rem;
+  }
+
+  .update .update-body p{
+    font-size: 0.6rem;
+  }
+  .carousel .update .update-body h6{
+    font-size: 0.8rem;
+  }
+  .update .update-footer p{
+    font-size: 0.6rem;
+  }
+  .mycontainer h5{
+    margin-bottom:0; 
+  }
+
 }
