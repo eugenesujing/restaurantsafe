@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "retaurantsafe",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eugenesujing/practice.git"
+    "url": "git+https://github.com/eugenesujing/restaurantsafe.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eugenesujing/practice/issues"
+    "url": "https://github.com/eugenesujing/restaurantsafe/issues"
   },
-  "homepage": "https://eugenesujing.github.io/restaurantsafe",
+  "homepage": "https://eugenesujing.gitbuh.io/restaurantsafe",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
